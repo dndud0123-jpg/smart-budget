@@ -1,0 +1,26 @@
+{
+  "name": "스마트 가계부 & 자산 관리",
+  "short_name": "스마트가계부",
+  "description": "모바일 최적화 자동화 가계부 및 다건 영수증/결제 OCR 자산 관리 웹앱",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["finance", "productivity", "utilities"]
+}

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#e0e7ff" stop-opacity="0.8" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- App Icon Background (Rounded Rect) -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+
+  <!-- Inner Subtle Border -->
+  <rect x="4" y="4" width="504" height="504" rx="124" fill="none" stroke="#ffffff" stroke-width="4" stroke-opacity="0.2" />
+
+  <!-- Main Wallet/Card Graphic -->
+  <g filter="url(#shadow)">
+    <!-- Back Card (Green / Shared) -->
+    <rect x="120" y="110" width="272" height="170" rx="24" fill="#10b981" transform="rotate(-6 256 195)" opacity="0.9" />
+
+    <!-- Front Card (White Glowing) -->
+    <rect x="100" y="140" width="312" height="196" rx="28" fill="url(#cardGrad)" />
+    
+    <!-- Card Chip / Accent -->
+    <rect x="140" y="180" width="48" height="38" rx="8" fill="#fbbf24" />
+    
+    <!-- Card Stripes -->
+    <rect x="140" y="244" width="140" height="12" rx="6" fill="#94a3b8" />
+    <rect x="140" y="268" width="80" height="10" rx="5" fill="#cbd5e1" />
+
+    <!-- Card Brand Emblem -->
+    <circle cx="360" cy="270" r="18" fill="#ef4444" opacity="0.85" />
+    <circle cx="380" cy="270" r="18" fill="#f59e0b" opacity="0.85" />
+  </g>
+
+  <!-- Sparkle Icons (AI Smart Assistant) -->
+  <path d="M 256 370 L 268 398 L 296 410 L 268 422 L 256 450 L 244 422 L 216 410 L 244 398 Z" fill="#38bdf8" />
+  <path d="M 370 340 L 378 358 L 396 366 L 378 374 L 370 392 L 362 374 L 344 366 L 362 358 Z" fill="#facc15" />
+  <path d="M 140 350 L 146 364 L 160 370 L 146 376 L 140 390 L 134 376 L 120 370 L 134 364 Z" fill="#ffffff" opacity="0.9" />
+</svg>
